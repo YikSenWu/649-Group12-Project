@@ -24,6 +24,7 @@ void setup()
 
   // Setup Serial1 for BlueTooth
   Serial1.begin(9600); // Default communication rate of the Bluetooth module
+  
 
 }
 void loop() 
