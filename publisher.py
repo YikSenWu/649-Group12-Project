@@ -4,6 +4,7 @@ import string
 import paho.mqtt.publish as publish
 
 
+
 # reading and writing data from and to arduino serially.
 # rfcomm0 -> this could be different
 ser_t1 = serial.Serial("/dev/rfcomm0", 9600)
