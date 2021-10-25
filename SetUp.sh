@@ -46,4 +46,5 @@ if [ $? -eq 0 ]
 then
     echo "Starting mosquitto service success"
 else
-    echo "St
+    echo "Starting mosquitto service error"
+fi
