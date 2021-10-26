@@ -7,6 +7,7 @@ String command;
 #define SS_PIN 0
 #define RST_PIN 6
 
+
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance.
 
 
